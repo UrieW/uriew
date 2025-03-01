@@ -1,0 +1,130 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: The Urie W Company Site!
+
+theme: Universal
+
+defaultContentLanguage: en
+
+summaryLength: 70
+
+pagination:
+  pagerSize: 10
+
+pluralizelisttitles: false
+
+menu:
+  main:
+    - name: 'Home'
+      identifier: menu.home
+      url: '/'
+      weight: 1
+    - name: 'Gallery'
+      url: '/gallery/'
+      weight: 1
+      parent: menu.home
+    - name: 'Theater'
+      url: '/theater/'
+      weight: 2
+      parent: menu.home
+    - name: 'Albums'
+      url: '/albums/'
+      weight: 3
+      parent: menu.home
+    - name: 'Demos'
+      url: '/demos/'
+      weight: 4
+      parent: menu.home
+    - name: 'Blog'
+      identifier: menu.blog
+      url: '/blog/'
+      weight: 2
+    - name: 'Shop'
+      identifier: menu.shop
+      url: '/shop/'
+      weight: 3
+    - name: 'About'
+      identifier: menu.about
+      url: '/about/'
+      weight: 4
+    - name: 'Map'
+      identifier: menu.map
+      url: '/map/'
+      weight: 5
+    - name: 'Contact'
+      identifier: contact
+      url: '/contact/'
+      weight: 6
+  topbar:
+    - weight: 1
+      name: Phone
+      url: 'tel:+1 630 414 5362'
+      pre: <i class='fas fa-2x fa-phone'></i>
+    - weight: 2
+      name: GitHub
+      url: 'https://github.com/devcows/hugo-universal-theme'
+      pre: <i class='fab fa-2x fa-github'></i>
+    - weight: 3
+      name: Facebook
+      url: 'http://facebook.com'
+      pre: <i class='fab fa-2x fa-facebook'></i>
+    - weight: 4
+      name: YouTube
+      url: 'http://youtube.com'
+      pre: <i class='fab fa-2x fa-youtube'></i>
+    - weight: 5
+      name: Email
+      url: 'mailto:offuriew@gmail.com'
+      pre: <i class='fas fa-2x fa-envelope'></i>
+
+
+services:
+  disqus:
+    Shortname: uriew
+
+params:
+  style: default
+  author: 'Urie W'
+
+  facebook_site: 'offuriew'
+
+  date_format: 'February 15, 2025'
+ 
+  dropdown_mouse_over: false
+
+
+  disabled_logo: false
+  logo_text: Urie W
+
+  logo: "img/logo.png"
+  logo_small: "img/logo-small.png"
+
+  contact_url: /contact
+  address: |-
+    <p class="text-uppercase"><strong>Urie W</strong>
+            <br>9122 S. Aberdeen St.
+            <br>Chicago, Illinois 60620
+            <strong>USA</strong>
+          </p>
+        
+  permalinks:
+    blog: '/blog/:year/:month/:day/:filename/'
+
+  topbar:
+    enable: true
+    text: >-
+      <p class="hidden-sm hidden-xs">Contact us on +1 630 414 5362 or
+      offuriew@gmail.com.</p>
+            <p class="hidden-md hidden-lg"><a href="tel:+1 630 414 5362" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+            <a href="mailto:offuriew@gmail.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+            </p>
+
+  enableGoogleMaps: false
+  
+  formspree_action: 'https://formspree.io/f/mjkgazrg'
+  email: 'offuriew@gmail.com'
+  contact_form_ajax: false
+
+  enableRecaptchaInContactForm: false
+
+  copyright: 'Copyright (c) 2024 - 2025, Urie W; all rights reserved.'
