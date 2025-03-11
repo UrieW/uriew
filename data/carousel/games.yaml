@@ -1,0 +1,9 @@
+weight: 2
+title: "Try our games!"
+description: >
+  <ul class="list-style-none">
+    <li>Compelling games, built</li>
+    <li>to cherish new memories...</li>
+  </ul>
+image: "img/carousel/template-easy-code.png"
+href: "/games/"

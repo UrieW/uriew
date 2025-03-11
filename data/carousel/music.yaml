@@ -1,0 +1,9 @@
+weight: 4
+title: "Music, straight from the heart!"
+description: >
+  <ul class="list-style-none">
+    <li>Inspiring tunes, uplifting</li>
+    <li>the mood in any scenario...</li>
+  </ul>
+image: "img/carousel/template-easy-code.png"
+href: "/albums/"
