@@ -6,6 +6,11 @@ theme: Universal
 
 defaultContentLanguage: en
 
+security:
+  http:
+    mediaTypes:
+      - ^audio/mpeg$
+
 summaryLength: 70
 
 pagination:
