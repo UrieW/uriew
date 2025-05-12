@@ -86,6 +86,8 @@ menu:
 services:
   disqus:
     Shortname: uriew
+  #googleAnalytics:
+    #id:
 
 params:
   style: default
